@@ -1,4 +1,4 @@
-const countries: CountriesMap = {
+export const countries: CountriesMap = {
   afghanistan: {
     iso_3166: {
       alpha3: 'AFG',
@@ -4843,6 +4843,3 @@ const countries: CountriesMap = {
     languages: {},
   },
 } as const;
-
-
-export default countries;
