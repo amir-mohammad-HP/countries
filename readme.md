@@ -141,6 +141,7 @@ interface CountriesMap {
 
 | Version | Changes                                           |
 | ------- | ------------------------------------------------- |
+| 1.0.1   | Fixed language types                              |
 | 1.0.1   | Fixed missing language data for several countries |
 
 ## 🤝 Contributing
