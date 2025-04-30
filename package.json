@@ -1,9 +1,9 @@
 {
   "name": "enum-countries",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "this package is a reference to countries constants ( country names, country codes, phone number regex, etc. )",
   "main": "dist/countries.js",
-  "types": "dist/hello.d.ts",
+  "types": "dist/countries.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
