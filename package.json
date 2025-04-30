@@ -1,6 +1,6 @@
 {
   "name": "enum-countries",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this package is a reference to countries constants ( country names, country codes, phone number regex, etc. )",
   "main": "dist/countries.js",
   "types": "dist/hello.d.ts",

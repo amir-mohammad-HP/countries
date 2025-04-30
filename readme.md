@@ -141,7 +141,7 @@ interface CountriesMap {
 
 | Version | Changes                                           |
 | ------- | ------------------------------------------------- |
-| 1.0.3   | Include all languages and iso standard codes      |
+| 1.0.*   | Include all languages and iso standard codes      |
 
 ## 🤝 Contributing
 
