@@ -37,7 +37,7 @@ pnpm add enum-countries
 ### JavaScript/CommonJS
 
 ```javascript
-const { countries } = require('enum-countries');
+const countries = require('enum-countries');
 
 // Get specific country data
 console.log(countries.france.iso_3166.alpha2); // 'FR'
@@ -47,7 +47,7 @@ console.log(countries.japan.telephone.code); // '81'
 ### TypeScript/ES Modules
 
 ```typescript
-import { countries } from 'enum-countries';
+import countries from 'enum-countries';
 
 // Find country by ISO alpha-2 code
 const germany = Object.values(countries).find((c) => c.iso_3166.alpha2 === 'DE');

@@ -4842,7 +4842,7 @@ const countries: CountriesMap = {
     },
     languages: {},
   },
-};
+} as const;
 
 
 export default countries;
