@@ -1,116 +1,165 @@
-## **1. ISO 3166 Country Codes (Standardized by International Organization for Standardization)**
+# `enum-countries` - Comprehensive Country Data Package
 
-### **ISO 3166-1 Alpha-2 (2-letter codes)**
+[![npm version](https://img.shields.io/npm/v/enum-countries.svg)](https://www.npmjs.com/package/enum-countries)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-- **Example:** `US` (United States), `DE` (Germany), `JP` (Japan)
-- **Status:** **Constant** (officially assigned, rarely changes unless a country dissolves/renames).
-- **Usage:** Internet domains (.us, .de), shipping, passports.
+A complete, type-safe collection of country data including ISO codes, languages, telephone codes, and more.
 
-### **ISO 3166-1 Alpha-3 (3-letter codes)**
+## 📦 Installation
 
-- **Example:** `USA` (United States), `DEU` (Germany), `JPN` (Japan)
-- **Status:** **Constant** (like Alpha-2, but some historical changes occur, e.g., `ZAR` → `COD` for Congo).
-- **Usage:** Sports, international treaties, databases.
+```bash
+npm install enum-countries
+# or
+yarn add enum-countries
+# or
+pnpm add enum-countries
+```
 
-### **ISO 3166-1 Numeric (3-digit codes)**
+## 🌍 Features
 
-- **Example:** `840` (USA), `276` (Germany), `392` (Japan)
-- **Status:** **Mostly Constant** (assigned permanently, even if a country dissolves; e.g., `YU` for Yugoslavia still exists numerically).
-- **Usage:** Statistical, banking, and non-language-dependent systems.
+- ✅ **Complete country data** for all recognized sovereign states
+- 🏷 **Standardized codes**:
+  - ISO 3166 (alpha-2, alpha-3, numeric)
+  - FIFA country codes
+  - International telephone codes
+- 🌐 **Multilingual support**:
+  - Official languages with native titles
+  - Locale codes (e.g., 'fr-FR')
+  - _Note: Some language data still needs completion_
+- 🔗 Top-level domains (TLDs)
+- 🛠 **Developer friendly**:
+  - Full TypeScript support
+  - Tree-shakable ES modules
+  - Zero dependencies
 
-### **ISO 3166-2 (Subdivision Codes)**
+## 📚 Basic Usage
 
-- **Example:** `US-CA` (California, USA), `DE-BY` (Bavaria, Germany)
-- **Status:** **Variable** (changes if administrative divisions are renamed or restructured).
-- **Usage:** Geographic databases, government records.
+### JavaScript/CommonJS
 
----
+```javascript
+const { countries } = require('enum-countries');
 
-## **2. UN M49 Codes (United Nations Standard)**
+// Get specific country data
+console.log(countries.france.iso_3166.alpha2); // 'FR'
+console.log(countries.japan.telephone.code); // '81'
+```
 
-- **Example:** `840` (USA), `826` (UK), `010` (Antarctica)
-- **Status:** **Mostly Constant** (updated for geopolitical changes, e.g., `891` for Yugoslavia no longer used).
-- **Usage:** UN statistics, economic reporting.
+### TypeScript/ES Modules
 
----
+```typescript
+import { countries } from 'enum-countries';
 
-## **3. Top-Level Domain (ccTLD) Codes (IANA Managed)**
+// Find country by ISO alpha-2 code
+const germany = Object.values(countries).find((c) => c.iso_3166.alpha2 === 'DE');
 
-- **Example:** `.us`, `.uk`, `.de`
-- **Status:** **Mostly Constant** (rarely revoked, but new ones added, e.g., `.ss` for South Sudan in 2011).
-- **Usage:** Internet domain registration.
+console.log(germany?.languages);
+// { German: { local: 'de-DE', title: 'Deutsch' } }
+```
 
----
+## 🔍 Advanced Usage
 
-## **4. International Dialing Codes (ITU-T E.164)**
+### Type-Safe Country Access
 
-- **Example:** `+1` (USA/Canada), `+44` (UK), `+81` (Japan)
-- **Status:** **Mostly Constant** (rarely change, but exceptions exist, e.g., `+7` was shared by USSR, now mostly Russia/Kazakhstan).
-- **Usage:** Telecommunications.
+```typescript
+import type { CountriesMap } from 'enum-countries';
 
----
+function formatPhoneNumber(countryCode: keyof CountriesMap, phoneNumber: string): string {
+  const country = countries[countryCode];
+  return `+${country.telephone.code} ${phoneNumber}`;
+}
+```
 
-## **5. Olympic Country Codes (IOC)**
+### Available Utility Functions
 
-- **Example:** `USA`, `GBR`, `GER`
-- **Status:** **Variable** (changes if a country is banned or renamed, e.g., `RU` → `ROC` for Russia in 2020 Olympics).
-- **Usage:** Sports events, Olympics.
+```typescript
+// Get all country codes
+const countryCodes = Object.keys(countries);
 
----
+// Get all FIFA codes
+const fifaCodes = Object.values(countries).map((c) => c.fifa.code);
 
-## **6. FIFA Country Codes**
+// Find by TLD
+const countryByTld = Object.values(countries).find((c) => c.iso_3166.TLD === '.it');
+```
 
-- **Example:** `USA`, `ENG` (England), `GER`
-- **Status:** **Variable** (some codes differ from ISO, e.g., `WAL` for Wales instead of `GB-WLS`).
-- **Usage:** Football (soccer) tournaments.
+## 📊 Data Structure
 
----
+Each country object contains:
 
-## **7. Vehicle Registration Codes**
+```typescript
+{
+  iso_3166: {
+    alpha3: string;  // e.g., 'FRA' for France
+    alpha2: string;  // e.g., 'FR' for France
+    numeric: string; // e.g., '250' for France
+    capital_subdivision: string | null;
+    state_name: string;    // Official name
+    sovereignty: string;   // e.g., 'UN member'
+    TLD: string;           // e.g., '.fr' for France
+  };
+  fifa: {
+    code: string;    // FIFA country code
+  };
+  telephone: {
+    code: string;    // International dialing code
+  };
+  languages: {
+    [languageName: string]: {
+      local: string; // Locale code
+      title: string; // Native name
+    }
+  };
+}
+```
 
-- **Example:** `USA` (United States), `D` (Germany), `J` (Japan)
-- **Status:** **Mostly Constant** (but may change due to political shifts, e.g., `CS` for Czechoslovakia → `CZ`/`SK`).
-- **Usage:** License plates, international traffic.
+## 🤖 TypeScript Support
 
----
+Fully typed with included declarations:
 
-## **8. NATO Country Codes (STANAG 1059)**
+```typescript
+interface CountryData {
+  iso_3166: {
+    alpha3: string;
+    alpha2: string;
+    numeric: string;
+    capital_subdivision: string | null;
+    state_name: string;
+    sovereignty: string;
+    TLD: string;
+  };
+  fifa: { code: string };
+  telephone: { code: string };
+  languages: Record<string, { local: string; title: string }>;
+}
 
-- **Example:** `US` (USA), `DE` (Germany), `UK` (United Kingdom)
-- **Status:** **Mostly Constant** (similar to ISO but with exceptions, e.g., `EL` for Greece instead of `GR`).
-- **Usage:** Military, NATO operations.
+interface CountriesMap {
+  [countryName: string]: CountryData;
+}
+```
 
----
+## 🚀 Version History
 
-## **9. IATA Country Codes (Airline Industry)**
+| Version | Changes                                           |
+| ------- | ------------------------------------------------- |
+| 1.0.1   | Fixed missing language data for several countries |
 
-- **Example:** `US`, `DE`, `JP`
-- **Status:** **Mostly Constant** (usually matches ISO Alpha-2, but exceptions exist).
-- **Usage:** Airline ticketing, baggage handling.
+## 🤝 Contributing
 
----
+We welcome contributions to improve this package! Here's how you can help:
 
-## **10. FIPS Country Codes (US Federal Standard)**
+1. **Report Issues**: Found incorrect data? Open an issue!
+2. **Add Missing Data**: Particularly language information
+3. **Improve Typings**: Enhance the TypeScript experience
+4. **Add Features**: Suggest new useful data fields
 
-- **Example:** `US` (USA), `GM` (Germany), `JA` (Japan)
-- **Status:** **Deprecated** (phased out in favor of ISO codes, but still in some legacy systems).
-- **Usage:** Old US government databases.
+To contribute:
 
----
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-### **Summary Table: Are Country Codes Constant or Variable?**
+## 📜 License
 
-| **Code Type**     | **Constant?** | **Notes**                                                |
-| ----------------- | ------------- | -------------------------------------------------------- |
-| **ISO Alpha-2**   | ✅ Mostly     | Rare changes (e.g., `TL` for Timor-Leste replaced `TP`). |
-| **ISO Alpha-3**   | ✅ Mostly     | Some historical adjustments.                             |
-| **ISO Numeric**   | ✅ Yes        | Rarely reassigned.                                       |
-| **UN M49**        | ✅ Mostly     | Updated for geopolitical changes.                        |
-| **ccTLD**         | ✅ Mostly     | New ones added, rarely removed.                          |
-| **Dialing Codes** | ✅ Mostly     | Rare changes (e.g., `+7` split after USSR).              |
-| **Olympic (IOC)** | ❌ Variable   | Changes due to bans/renames (e.g., `ROC` for Russia).    |
-| **FIFA Codes**    | ❌ Variable   | Some differ from ISO (e.g., `WAL` for Wales).            |
-| **Vehicle Codes** | ✅ Mostly     | Some historical changes.                                 |
-| **NATO Codes**    | ✅ Mostly     | Exceptions like `EL` for Greece.                         |
-| **IATA Codes**    | ✅ Mostly     | Mostly aligns with ISO.                                  |
-| **FIPS Codes**    | ❌ Deprecated | No longer updated.                                       |
+MIT © [A.M.Hamidi Pour](https://am-hp.ir)

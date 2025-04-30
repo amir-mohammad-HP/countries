@@ -246,34 +246,21 @@ type Tcountry =
   | 'zambia'
   | 'zimbabwe';
 
-interface Icountries {
-  [key: string]: {
-    iso_3166: {
-      alpha3: string;
-      alpha2: string;
-      numeric: string;
-      capital_subdivision: string | null;
-      state_name: string;
-      sovereignty: string | null;
-      TLD: string;
-    };
-    fifa: {
-      code: string | null;
-    };
-    telephone: {
-      code: string | null;
-    };
-    languages:
-      | {
-          [key: string]: {
-            local: string;
-            title: string;
-          };
-        }
-      | [];
+interface CountryData {
+  iso_3166: {
+    alpha3: string;
+    alpha2: string;
+    numeric: string;
+    capital_subdivision: string | null;
+    state_name: string;
+    sovereignty: string | null;
+    TLD: string;
   };
+  fifa: { code: string | null };
+  telephone: { code: string | null };
+  languages: Record<string, { local: string; title: string }>;
 }
 
 type CountriesMap = {
-  [K in Tcountry]: Icountries[K];
+  [K in Tcountry]: CountryData;
 };

@@ -93,7 +93,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-684',
     },
-    languages: [],
+    languages: {},
   },
 
   andorra: {
@@ -112,7 +112,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '376',
     },
-    languages: [],
+    languages: {},
   },
 
   angola: {
@@ -131,7 +131,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '244',
     },
-    languages: [],
+    languages: {},
   },
 
   anguilla: {
@@ -150,7 +150,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-264',
     },
-    languages: [],
+    languages: {},
   },
 
   antarctica: {
@@ -169,7 +169,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   antiguaAndBarbuda: {
@@ -188,7 +188,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-268',
     },
-    languages: [],
+    languages: {},
   },
 
   argentina: {
@@ -253,7 +253,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '297',
     },
-    languages: [],
+    languages: {},
   },
 
   australia: {
@@ -618,7 +618,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '387',
     },
-    languages: [],
+    languages: {},
   },
 
   botswana: {
@@ -637,7 +637,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '267',
     },
-    languages: [],
+    languages: {},
   },
 
   bouvetIsland: {
@@ -656,7 +656,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   brazil: {
@@ -675,7 +675,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '55',
     },
-    languages: [],
+    languages: {},
   },
 
   britishIndianOceanTerritory: {
@@ -694,7 +694,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   bruneiDarussalam: {
@@ -713,7 +713,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '673',
     },
-    languages: [],
+    languages: {},
   },
 
   bulgaria: {
@@ -732,7 +732,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '359',
     },
-    languages: [],
+    languages: {},
   },
 
   burkinaFaso: {
@@ -751,7 +751,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '226',
     },
-    languages: [],
+    languages: {},
   },
 
   burundi: {
@@ -770,7 +770,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '257',
     },
-    languages: [],
+    languages: {},
   },
 
   caboVerde: {
@@ -789,7 +789,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '238',
     },
-    languages: [],
+    languages: {},
   },
 
   cambodia: {
@@ -808,7 +808,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '855',
     },
-    languages: [],
+    languages: {},
   },
 
   cameroon: {
@@ -827,7 +827,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '237',
     },
-    languages: [],
+    languages: {},
   },
 
   canada: {
@@ -846,7 +846,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1',
     },
-    languages: [],
+    languages: {},
   },
 
   caymanIslands: {
@@ -865,7 +865,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-345',
     },
-    languages: [],
+    languages: {},
   },
 
   centralAfricanRepublic: {
@@ -884,7 +884,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '236',
     },
-    languages: [],
+    languages: {},
   },
 
   chad: {
@@ -903,7 +903,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '235',
     },
-    languages: [],
+    languages: {},
   },
 
   chile: {
@@ -922,7 +922,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '56',
     },
-    languages: [],
+    languages: {},
   },
 
   china: {
@@ -941,7 +941,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '86',
     },
-    languages: [],
+    languages: {},
   },
 
   christmasIsland: {
@@ -960,7 +960,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '61',
     },
-    languages: [],
+    languages: {},
   },
 
   cocosIslands: {
@@ -979,7 +979,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '61',
     },
-    languages: [],
+    languages: {},
   },
 
   colombia: {
@@ -998,7 +998,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '57',
     },
-    languages: [],
+    languages: {},
   },
 
   comoros: {
@@ -1017,7 +1017,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '269',
     },
-    languages: [],
+    languages: {},
   },
 
   congo: {
@@ -1036,7 +1036,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '242',
     },
-    languages: [],
+    languages: {},
   },
 
   congoDemocraticRepublic: {
@@ -1055,7 +1055,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '243',
     },
-    languages: [],
+    languages: {},
   },
 
   cookIslands: {
@@ -1074,7 +1074,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '682',
     },
-    languages: [],
+    languages: {},
   },
 
   costaRica: {
@@ -1093,7 +1093,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '506',
     },
-    languages: [],
+    languages: {},
   },
 
   croatia: {
@@ -1112,7 +1112,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '385',
     },
-    languages: [],
+    languages: {},
   },
 
   cuba: {
@@ -1131,7 +1131,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '53',
     },
-    languages: [],
+    languages: {},
   },
 
   curacao: {
@@ -1150,7 +1150,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '599',
     },
-    languages: [],
+    languages: {},
   },
 
   cyprus: {
@@ -1169,7 +1169,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '357',
     },
-    languages: [],
+    languages: {},
   },
 
   czechia: {
@@ -1188,7 +1188,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '420',
     },
-    languages: [],
+    languages: {},
   },
 
   cotedIvoire: {
@@ -1207,7 +1207,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '225',
     },
-    languages: [],
+    languages: {},
   },
 
   denmark: {
@@ -1226,7 +1226,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '45',
     },
-    languages: [],
+    languages: {},
   },
 
   djibouti: {
@@ -1245,7 +1245,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '253',
     },
-    languages: [],
+    languages: {},
   },
 
   dominica: {
@@ -1264,7 +1264,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-767',
     },
-    languages: [],
+    languages: {},
   },
 
   dominicanRepublic: {
@@ -1283,7 +1283,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-809',
     },
-    languages: [],
+    languages: {},
   },
 
   ecuador: {
@@ -1302,7 +1302,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '593',
     },
-    languages: [],
+    languages: {},
   },
 
   egypt: {
@@ -1321,7 +1321,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '20',
     },
-    languages: [],
+    languages: {},
   },
 
   elSalvador: {
@@ -1340,7 +1340,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '503',
     },
-    languages: [],
+    languages: {},
   },
 
   equatorialGuinea: {
@@ -1359,7 +1359,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '240',
     },
-    languages: [],
+    languages: {},
   },
 
   eritrea: {
@@ -1378,7 +1378,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '291',
     },
-    languages: [],
+    languages: {},
   },
 
   estonia: {
@@ -1397,7 +1397,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '372',
     },
-    languages: [],
+    languages: {},
   },
 
   eswatini: {
@@ -1416,7 +1416,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '268',
     },
-    languages: [],
+    languages: {},
   },
 
   ethiopia: {
@@ -1435,7 +1435,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '251',
     },
-    languages: [],
+    languages: {},
   },
 
   falklandIslands: {
@@ -1454,7 +1454,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '500',
     },
-    languages: [],
+    languages: {},
   },
 
   faroeIslands: {
@@ -1473,7 +1473,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '298',
     },
-    languages: [],
+    languages: {},
   },
 
   fiji: {
@@ -1492,7 +1492,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '679',
     },
-    languages: [],
+    languages: {},
   },
 
   finland: {
@@ -1561,7 +1561,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '594',
     },
-    languages: [],
+    languages: {},
   },
 
   frenchPolynesia: {
@@ -1580,7 +1580,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '689',
     },
-    languages: [],
+    languages: {},
   },
 
   frenchSouthernTerritories: {
@@ -1599,7 +1599,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   gabon: {
@@ -1618,7 +1618,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '241',
     },
-    languages: [],
+    languages: {},
   },
 
   gambia: {
@@ -1637,7 +1637,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '220',
     },
-    languages: [],
+    languages: {},
   },
 
   georgia: {
@@ -1656,7 +1656,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '995',
     },
-    languages: [],
+    languages: {},
   },
 
   germany: {
@@ -1675,7 +1675,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '49',
     },
-    languages: [],
+    languages: {},
   },
 
   ghana: {
@@ -1694,7 +1694,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '233',
     },
-    languages: [],
+    languages: {},
   },
 
   gibraltar: {
@@ -1713,7 +1713,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '350',
     },
-    languages: [],
+    languages: {},
   },
 
   greece: {
@@ -1732,7 +1732,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '30',
     },
-    languages: [],
+    languages: {},
   },
 
   greenland: {
@@ -1751,7 +1751,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '299',
     },
-    languages: [],
+    languages: {},
   },
 
   grenada: {
@@ -1770,7 +1770,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-473',
     },
-    languages: [],
+    languages: {},
   },
 
   guadeloupe: {
@@ -1789,7 +1789,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '590',
     },
-    languages: [],
+    languages: {},
   },
 
   guam: {
@@ -1808,7 +1808,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-671',
     },
-    languages: [],
+    languages: {},
   },
 
   guatemala: {
@@ -1827,7 +1827,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '502',
     },
-    languages: [],
+    languages: {},
   },
 
   guernsey: {
@@ -1846,7 +1846,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '44-1481',
     },
-    languages: [],
+    languages: {},
   },
 
   guinea: {
@@ -1865,7 +1865,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '224',
     },
-    languages: [],
+    languages: {},
   },
 
   guineaBissau: {
@@ -1884,7 +1884,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '245',
     },
-    languages: [],
+    languages: {},
   },
 
   guyana: {
@@ -1903,7 +1903,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '592',
     },
-    languages: [],
+    languages: {},
   },
 
   haiti: {
@@ -1922,7 +1922,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '509',
     },
-    languages: [],
+    languages: {},
   },
 
   heardIslandAndMcdonaldIslands: {
@@ -1941,7 +1941,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   holySee: {
@@ -1960,7 +1960,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   honduras: {
@@ -1979,7 +1979,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '504',
     },
-    languages: [],
+    languages: {},
   },
 
   hongKong: {
@@ -1998,7 +1998,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '852',
     },
-    languages: [],
+    languages: {},
   },
 
   hungary: {
@@ -2017,7 +2017,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '36',
     },
-    languages: [],
+    languages: {},
   },
 
   iceland: {
@@ -2036,7 +2036,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '354',
     },
-    languages: [],
+    languages: {},
   },
 
   india: {
@@ -2055,7 +2055,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '91',
     },
-    languages: [],
+    languages: {},
   },
 
   indonesia: {
@@ -2074,7 +2074,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '62',
     },
-    languages: [],
+    languages: {},
   },
 
   iran: {
@@ -2175,7 +2175,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '353',
     },
-    languages: [],
+    languages: {},
   },
 
   isleOfMan: {
@@ -2194,7 +2194,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '44-1624',
     },
-    languages: [],
+    languages: {},
   },
 
   italy: {
@@ -2213,7 +2213,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '39',
     },
-    languages: [],
+    languages: {},
   },
 
   jamaica: {
@@ -2232,7 +2232,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-876',
     },
-    languages: [],
+    languages: {},
   },
 
   japan: {
@@ -2251,7 +2251,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '81',
     },
-    languages: [],
+    languages: {},
   },
 
   jersey: {
@@ -2270,7 +2270,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '44-1534',
     },
-    languages: [],
+    languages: {},
   },
 
   jordan: {
@@ -2289,7 +2289,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '962',
     },
-    languages: [],
+    languages: {},
   },
 
   kazakhstan: {
@@ -2308,7 +2308,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '7',
     },
-    languages: [],
+    languages: {},
   },
 
   kenya: {
@@ -2327,7 +2327,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '254',
     },
-    languages: [],
+    languages: {},
   },
 
   kiribati: {
@@ -2346,7 +2346,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '686',
     },
-    languages: [],
+    languages: {},
   },
 
   koreaNorth: {
@@ -2365,7 +2365,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '850',
     },
-    languages: [],
+    languages: {},
   },
 
   koreaSouth: {
@@ -2384,7 +2384,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '82',
     },
-    languages: [],
+    languages: {},
   },
 
   kuwait: {
@@ -2403,7 +2403,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '965',
     },
-    languages: [],
+    languages: {},
   },
 
   kyrgyzstan: {
@@ -2422,7 +2422,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '996',
     },
-    languages: [],
+    languages: {},
   },
 
   laoPeoplesDemocraticRepublic: {
@@ -2441,7 +2441,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '856',
     },
-    languages: [],
+    languages: {},
   },
 
   latvia: {
@@ -2460,7 +2460,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '371',
     },
-    languages: [],
+    languages: {},
   },
 
   lebanon: {
@@ -2479,7 +2479,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '961',
     },
-    languages: [],
+    languages: {},
   },
 
   lesotho: {
@@ -2498,7 +2498,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '266',
     },
-    languages: [],
+    languages: {},
   },
 
   liberia: {
@@ -2517,7 +2517,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '231',
     },
-    languages: [],
+    languages: {},
   },
 
   libya: {
@@ -2536,7 +2536,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '218',
     },
-    languages: [],
+    languages: {},
   },
 
   liechtenstein: {
@@ -2555,7 +2555,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '423',
     },
-    languages: [],
+    languages: {},
   },
 
   lithuania: {
@@ -2574,7 +2574,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '370',
     },
-    languages: [],
+    languages: {},
   },
 
   luxembourg: {
@@ -2593,7 +2593,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '352',
     },
-    languages: [],
+    languages: {},
   },
 
   macao: {
@@ -2612,7 +2612,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '853',
     },
-    languages: [],
+    languages: {},
   },
 
   madagascar: {
@@ -2631,7 +2631,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '261',
     },
-    languages: [],
+    languages: {},
   },
 
   malawi: {
@@ -2650,7 +2650,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '265',
     },
-    languages: [],
+    languages: {},
   },
 
   malaysia: {
@@ -2669,7 +2669,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '60',
     },
-    languages: [],
+    languages: {},
   },
 
   maldives: {
@@ -2688,7 +2688,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '960',
     },
-    languages: [],
+    languages: {},
   },
 
   mali: {
@@ -2707,7 +2707,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '223',
     },
-    languages: [],
+    languages: {},
   },
 
   malta: {
@@ -2726,7 +2726,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '356',
     },
-    languages: [],
+    languages: {},
   },
 
   marshallIslands: {
@@ -2745,7 +2745,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '692',
     },
-    languages: [],
+    languages: {},
   },
 
   martinique: {
@@ -2764,7 +2764,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '596',
     },
-    languages: [],
+    languages: {},
   },
 
   mauritania: {
@@ -2783,7 +2783,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '222',
     },
-    languages: [],
+    languages: {},
   },
 
   mauritius: {
@@ -2802,7 +2802,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '230',
     },
-    languages: [],
+    languages: {},
   },
 
   mayotte: {
@@ -2821,7 +2821,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '262',
     },
-    languages: [],
+    languages: {},
   },
 
   mexico: {
@@ -2840,7 +2840,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '52',
     },
-    languages: [],
+    languages: {},
   },
 
   micronesia: {
@@ -2859,7 +2859,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '691',
     },
-    languages: [],
+    languages: {},
   },
 
   moldova: {
@@ -2878,7 +2878,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '373',
     },
-    languages: [],
+    languages: {},
   },
 
   monaco: {
@@ -2897,7 +2897,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '377',
     },
-    languages: [],
+    languages: {},
   },
 
   mongolia: {
@@ -2916,7 +2916,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '976',
     },
-    languages: [],
+    languages: {},
   },
 
   montenegro: {
@@ -2935,7 +2935,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '382',
     },
-    languages: [],
+    languages: {},
   },
 
   montserrat: {
@@ -2954,7 +2954,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-664',
     },
-    languages: [],
+    languages: {},
   },
 
   morocco: {
@@ -2973,7 +2973,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '212',
     },
-    languages: [],
+    languages: {},
   },
 
   mozambique: {
@@ -2992,7 +2992,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '258',
     },
-    languages: [],
+    languages: {},
   },
 
   myanmar: {
@@ -3011,7 +3011,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '95',
     },
-    languages: [],
+    languages: {},
   },
 
   namibia: {
@@ -3030,7 +3030,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '264',
     },
-    languages: [],
+    languages: {},
   },
 
   nauru: {
@@ -3049,7 +3049,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '674',
     },
-    languages: [],
+    languages: {},
   },
 
   nepal: {
@@ -3068,7 +3068,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '977',
     },
-    languages: [],
+    languages: {},
   },
 
   netherlands: {
@@ -3087,7 +3087,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '31',
     },
-    languages: [],
+    languages: {},
   },
 
   newCaledonia: {
@@ -3106,7 +3106,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '687',
     },
-    languages: [],
+    languages: {},
   },
 
   newZealand: {
@@ -3125,7 +3125,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '64',
     },
-    languages: [],
+    languages: {},
   },
 
   nicaragua: {
@@ -3144,7 +3144,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '505',
     },
-    languages: [],
+    languages: {},
   },
 
   niger: {
@@ -3163,7 +3163,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '227',
     },
-    languages: [],
+    languages: {},
   },
 
   nigeria: {
@@ -3182,7 +3182,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '234',
     },
-    languages: [],
+    languages: {},
   },
 
   niue: {
@@ -3201,7 +3201,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '683',
     },
-    languages: [],
+    languages: {},
   },
 
   norfolkIsland: {
@@ -3220,7 +3220,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '672',
     },
-    languages: [],
+    languages: {},
   },
 
   northMacedonia: {
@@ -3239,7 +3239,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '389',
     },
-    languages: [],
+    languages: {},
   },
 
   northernMarianaIslands: {
@@ -3258,7 +3258,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-670',
     },
-    languages: [],
+    languages: {},
   },
 
   norway: {
@@ -3277,7 +3277,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '47',
     },
-    languages: [],
+    languages: {},
   },
 
   oman: {
@@ -3296,7 +3296,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '968',
     },
-    languages: [],
+    languages: {},
   },
 
   pakistan: {
@@ -3315,7 +3315,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '92',
     },
-    languages: [],
+    languages: {},
   },
 
   palau: {
@@ -3334,7 +3334,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '680',
     },
-    languages: [],
+    languages: {},
   },
 
   palestine: {
@@ -3353,7 +3353,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   panama: {
@@ -3372,7 +3372,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '507',
     },
-    languages: [],
+    languages: {},
   },
 
   papuaNewGuinea: {
@@ -3391,7 +3391,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '675',
     },
-    languages: [],
+    languages: {},
   },
 
   paraguay: {
@@ -3410,7 +3410,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '595',
     },
-    languages: [],
+    languages: {},
   },
 
   peru: {
@@ -3429,7 +3429,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '51',
     },
-    languages: [],
+    languages: {},
   },
 
   philippines: {
@@ -3448,7 +3448,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '63',
     },
-    languages: [],
+    languages: {},
   },
 
   pitcairn: {
@@ -3467,7 +3467,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '64',
     },
-    languages: [],
+    languages: {},
   },
 
   poland: {
@@ -3486,7 +3486,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '48',
     },
-    languages: [],
+    languages: {},
   },
 
   portugal: {
@@ -3505,7 +3505,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '351',
     },
-    languages: [],
+    languages: {},
   },
 
   puertoRico: {
@@ -3524,7 +3524,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-787',
     },
-    languages: [],
+    languages: {},
   },
 
   qatar: {
@@ -3543,7 +3543,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '974',
     },
-    languages: [],
+    languages: {},
   },
 
   romania: {
@@ -3562,7 +3562,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '40',
     },
-    languages: [],
+    languages: {},
   },
 
   russianFederation: {
@@ -3581,7 +3581,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '7',
     },
-    languages: [],
+    languages: {},
   },
 
   rwanda: {
@@ -3600,7 +3600,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '250',
     },
-    languages: [],
+    languages: {},
   },
 
   reunion: {
@@ -3619,7 +3619,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '262',
     },
-    languages: [],
+    languages: {},
   },
 
   saintBarthelemy: {
@@ -3638,7 +3638,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '590',
     },
-    languages: [],
+    languages: {},
   },
 
   saintHelena: {
@@ -3657,7 +3657,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '290',
     },
-    languages: [],
+    languages: {},
   },
 
   saintKittsAndNevis: {
@@ -3676,7 +3676,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-869',
     },
-    languages: [],
+    languages: {},
   },
 
   saintLucia: {
@@ -3695,7 +3695,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-758',
     },
-    languages: [],
+    languages: {},
   },
 
   saintMartin: {
@@ -3714,7 +3714,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '590',
     },
-    languages: [],
+    languages: {},
   },
 
   saintPierreAndMiquelon: {
@@ -3733,7 +3733,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '508',
     },
-    languages: [],
+    languages: {},
   },
 
   saintVincentAndTheGrenadines: {
@@ -3752,7 +3752,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-784',
     },
-    languages: [],
+    languages: {},
   },
 
   samoa: {
@@ -3771,7 +3771,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '685',
     },
-    languages: [],
+    languages: {},
   },
 
   sanMarino: {
@@ -3790,7 +3790,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '378',
     },
-    languages: [],
+    languages: {},
   },
 
   saoTomeAndPrincipe: {
@@ -3809,7 +3809,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '239',
     },
-    languages: [],
+    languages: {},
   },
 
   saudiArabia: {
@@ -3828,7 +3828,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '966',
     },
-    languages: [],
+    languages: {},
   },
 
   senegal: {
@@ -3847,7 +3847,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '221',
     },
-    languages: [],
+    languages: {},
   },
 
   serbia: {
@@ -3866,7 +3866,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '381',
     },
-    languages: [],
+    languages: {},
   },
 
   seychelles: {
@@ -3885,7 +3885,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '248',
     },
-    languages: [],
+    languages: {},
   },
 
   sierraLeone: {
@@ -3904,7 +3904,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '232',
     },
-    languages: [],
+    languages: {},
   },
 
   singapore: {
@@ -3923,7 +3923,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '65',
     },
-    languages: [],
+    languages: {},
   },
 
   sintMaarten: {
@@ -3942,7 +3942,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-721',
     },
-    languages: [],
+    languages: {},
   },
 
   slovakia: {
@@ -3961,7 +3961,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '421',
     },
-    languages: [],
+    languages: {},
   },
 
   slovenia: {
@@ -3980,7 +3980,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '386',
     },
-    languages: [],
+    languages: {},
   },
 
   solomonIslands: {
@@ -3999,7 +3999,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '677',
     },
-    languages: [],
+    languages: {},
   },
 
   somalia: {
@@ -4018,7 +4018,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '252',
     },
-    languages: [],
+    languages: {},
   },
 
   southAfrica: {
@@ -4037,7 +4037,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '27',
     },
-    languages: [],
+    languages: {},
   },
 
   southGeorgiaAndTheSouthSandwichIslands: {
@@ -4056,7 +4056,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   southSudan: {
@@ -4075,7 +4075,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '211',
     },
-    languages: [],
+    languages: {},
   },
 
   spain: {
@@ -4094,7 +4094,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '34',
     },
-    languages: [],
+    languages: {},
   },
 
   sriLanka: {
@@ -4113,7 +4113,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '94',
     },
-    languages: [],
+    languages: {},
   },
 
   sudan: {
@@ -4132,7 +4132,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '249',
     },
-    languages: [],
+    languages: {},
   },
 
   suriname: {
@@ -4151,7 +4151,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '597',
     },
-    languages: [],
+    languages: {},
   },
 
   svalbardAndJanMayen: {
@@ -4170,7 +4170,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   sweden: {
@@ -4189,7 +4189,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '46',
     },
-    languages: [],
+    languages: {},
   },
 
   switzerland: {
@@ -4208,7 +4208,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '41',
     },
-    languages: [],
+    languages: {},
   },
 
   syrianArabRepublic: {
@@ -4227,7 +4227,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '963',
     },
-    languages: [],
+    languages: {},
   },
 
   taiwan: {
@@ -4246,7 +4246,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '886',
     },
-    languages: [],
+    languages: {},
   },
 
   tajikistan: {
@@ -4265,7 +4265,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '992',
     },
-    languages: [],
+    languages: {},
   },
 
   tanzania: {
@@ -4284,7 +4284,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '255',
     },
-    languages: [],
+    languages: {},
   },
 
   thailand: {
@@ -4303,7 +4303,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '66',
     },
-    languages: [],
+    languages: {},
   },
 
   timorLeste: {
@@ -4322,7 +4322,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '670',
     },
-    languages: [],
+    languages: {},
   },
 
   togo: {
@@ -4341,7 +4341,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '228',
     },
-    languages: [],
+    languages: {},
   },
 
   tokelau: {
@@ -4360,7 +4360,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '690',
     },
-    languages: [],
+    languages: {},
   },
 
   tonga: {
@@ -4379,7 +4379,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '676',
     },
-    languages: [],
+    languages: {},
   },
 
   trinidadAndTobago: {
@@ -4398,7 +4398,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-868',
     },
-    languages: [],
+    languages: {},
   },
 
   tunisia: {
@@ -4417,7 +4417,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '216',
     },
-    languages: [],
+    languages: {},
   },
 
   turkey: {
@@ -4436,7 +4436,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '90',
     },
-    languages: [],
+    languages: {},
   },
 
   turkmenistan: {
@@ -4455,7 +4455,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '993',
     },
-    languages: [],
+    languages: {},
   },
 
   turksAndCaicosIslands: {
@@ -4474,7 +4474,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-649',
     },
-    languages: [],
+    languages: {},
   },
 
   tuvalu: {
@@ -4493,7 +4493,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '688',
     },
-    languages: [],
+    languages: {},
   },
 
   uganda: {
@@ -4512,7 +4512,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '256',
     },
-    languages: [],
+    languages: {},
   },
 
   ukraine: {
@@ -4531,7 +4531,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '380',
     },
-    languages: [],
+    languages: {},
   },
 
   unitedArabEmirates: {
@@ -4550,7 +4550,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '971',
     },
-    languages: [],
+    languages: {},
   },
 
   unitedKingdom: {
@@ -4569,7 +4569,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '44',
     },
-    languages: [],
+    languages: {},
   },
 
   unitedStates: {
@@ -4588,7 +4588,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1',
     },
-    languages: [],
+    languages: {},
   },
 
   unitedStatesMinorOutlyingIslands: {
@@ -4607,7 +4607,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   uruguay: {
@@ -4626,7 +4626,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '598',
     },
-    languages: [],
+    languages: {},
   },
 
   uzbekistan: {
@@ -4645,7 +4645,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '998',
     },
-    languages: [],
+    languages: {},
   },
 
   vanuatu: {
@@ -4664,7 +4664,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '678',
     },
-    languages: [],
+    languages: {},
   },
 
   venezuela: {
@@ -4683,7 +4683,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '58',
     },
-    languages: [],
+    languages: {},
   },
 
   vietnam: {
@@ -4702,7 +4702,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '84',
     },
-    languages: [],
+    languages: {},
   },
 
   virginIslandsBritish: {
@@ -4721,7 +4721,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-284',
     },
-    languages: [],
+    languages: {},
   },
 
   virginIslandsUS: {
@@ -4740,7 +4740,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '1-340',
     },
-    languages: [],
+    languages: {},
   },
 
   wallisAndFutuna: {
@@ -4759,7 +4759,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '681',
     },
-    languages: [],
+    languages: {},
   },
 
   westernSahara: {
@@ -4778,7 +4778,7 @@ const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: [],
+    languages: {},
   },
 
   yemen: {
@@ -4821,7 +4821,7 @@ const countries: CountriesMap = {
     telephone: {
       code: '260',
     },
-    languages: [],
+    languages: {},
   },
 
   zimbabwe: {
@@ -4840,6 +4840,6 @@ const countries: CountriesMap = {
     telephone: {
       code: '263',
     },
-    languages: [],
+    languages: {},
   },
 };
