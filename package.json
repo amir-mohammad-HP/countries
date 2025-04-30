@@ -1,0 +1,41 @@
+{
+  "name": "enum-countries",
+  "version": "1.0.1",
+  "description": "this package is a reference to countries constants ( country names, country codes, phone number regex, etc. )",
+  "main": "dist/countries.js",
+  "types": "dist/hello.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amir-mohammad-HP/countries.git"
+  },
+  "keywords": [
+    "countries",
+    "countries",
+    "code"
+  ],
+  "author": "Amir Mohammad Hamidi Pour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amir-mohammad-HP/countries/issues"
+  },
+  "homepage": "https://github.com/amir-mohammad-HP/countries#readme",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-define-config": "^2.1.0",
+    "prettier": "^3.5.3"
+  }
+}
