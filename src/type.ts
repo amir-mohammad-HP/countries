@@ -264,3 +264,8 @@ interface CountryData {
 type CountriesMap = {
   [K in Tcountry]: CountryData;
 };
+
+declare module 'enum-countries' {
+  const countries: CountriesMap;
+  export default countries;
+}
