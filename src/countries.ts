@@ -1,3 +1,5 @@
+import { CountriesMap } from './type';
+
 export const countries: CountriesMap = {
   afghanistan: {
     iso_3166: {
@@ -93,7 +95,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '1-684',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-AS',
+        title: 'English',
+      },
+      Samoan: {
+        local: 'sm-AS',
+        title: 'Gagana Sāmoa',
+      },
+    },
   },
 
   andorra: {
@@ -112,7 +123,24 @@ export const countries: CountriesMap = {
     telephone: {
       code: '376',
     },
-    languages: {},
+    languages: {
+      Catalan: {
+        local: 'ca-AD',
+        title: 'Català',
+      },
+      Spanish: {
+        local: 'es-AD',
+        title: 'Español',
+      },
+      French: {
+        local: 'fr-AD',
+        title: 'Français',
+      },
+      Portuguese: {
+        local: 'pt-AD',
+        title: 'Português',
+      },
+    },
   },
 
   angola: {
@@ -131,7 +159,28 @@ export const countries: CountriesMap = {
     telephone: {
       code: '244',
     },
-    languages: {},
+    languages: {
+      Portuguese: {
+        local: 'pt-AO',
+        title: 'Português',
+      },
+      Umbundu: {
+        local: 'umb',
+        title: 'Umbundu',
+      },
+      Kimbundu: {
+        local: 'kmb',
+        title: 'Kimbundu',
+      },
+      Kikongo: {
+        local: 'kng',
+        title: 'Kikongo',
+      },
+      Chokwe: {
+        local: 'cjk',
+        title: 'Chokwe',
+      },
+    },
   },
 
   anguilla: {
@@ -150,7 +199,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '1-264',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-AI',
+        title: 'English',
+      },
+      Anguillian_Creole: {
+        local: null,
+        title: 'Anguillian Creole',
+      },
+    },
   },
 
   antarctica: {
@@ -169,7 +227,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-AQ',
+        title: 'English',
+      },
+      Russian: {
+        local: 'ru-AQ',
+        title: 'Русский',
+      },
+      Norwegian: {
+        local: 'no-AQ',
+        title: 'Norsk',
+      },
+    },
   },
 
   antiguaAndBarbuda: {
@@ -188,7 +259,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '1-268',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-AG',
+        title: 'English',
+      },
+      Antiguan_Creole: {
+        local: null,
+        title: 'Antiguan Creole',
+      },
+    },
   },
 
   argentina: {
@@ -237,6 +317,7 @@ export const countries: CountriesMap = {
       },
     },
   },
+
   aruba: {
     iso_3166: {
       alpha3: 'ABW',
@@ -253,7 +334,24 @@ export const countries: CountriesMap = {
     telephone: {
       code: '297',
     },
-    languages: {},
+    languages: {
+      Dutch: {
+        local: 'nl-AW',
+        title: 'Nederlands',
+      },
+      Papiamento: {
+        local: 'pap',
+        title: 'Papiamento',
+      },
+      Spanish: {
+        local: 'es-AW',
+        title: 'Español',
+      },
+      English: {
+        local: 'en-AW',
+        title: 'English',
+      },
+    },
   },
 
   australia: {
@@ -618,7 +716,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '387',
     },
-    languages: {},
+    languages: {
+      Bosnian: {
+        local: 'bs-BA',
+        title: 'Bosanski',
+      },
+      Croatian: {
+        local: 'hr-BA',
+        title: 'Hrvatski',
+      },
+      Serbian: {
+        local: 'sr-BA',
+        title: 'Српски',
+      },
+    },
   },
 
   botswana: {
@@ -637,7 +748,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '267',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-BW',
+        title: 'English',
+      },
+      Setswana: {
+        local: 'tn-BW',
+        title: 'Setswana',
+      },
+    },
   },
 
   bouvetIsland: {
@@ -656,7 +776,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: {},
+    languages: {
+      Norwegian: {
+        local: 'nb-BV',
+        title: 'Norsk Bokmål',
+      },
+    },
   },
 
   brazil: {
@@ -675,7 +800,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '55',
     },
-    languages: {},
+    languages: {
+      Portuguese: {
+        local: 'pt-BR',
+        title: 'Português',
+      },
+    },
   },
 
   britishIndianOceanTerritory: {
@@ -694,7 +824,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: null,
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-IO',
+        title: 'English',
+      },
+    },
   },
 
   bruneiDarussalam: {
@@ -713,7 +848,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '673',
     },
-    languages: {},
+    languages: {
+      Malay: {
+        local: 'ms-BN',
+        title: 'Bahasa Melayu',
+      },
+      English: {
+        local: 'en-BN',
+        title: 'English',
+      },
+    },
   },
 
   bulgaria: {
@@ -732,9 +876,13 @@ export const countries: CountriesMap = {
     telephone: {
       code: '359',
     },
-    languages: {},
+    languages: {
+      Bulgarian: {
+        local: 'bg-BG',
+        title: 'Български',
+      },
+    },
   },
-
   burkinaFaso: {
     iso_3166: {
       alpha3: 'BFA',
@@ -751,7 +899,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '226',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-BF',
+        title: 'Français',
+      },
+      Moore: {
+        local: 'mos',
+        title: 'Mooré',
+      },
+      Dioula: {
+        local: 'dyu',
+        title: 'Dioula',
+      },
+    },
   },
 
   burundi: {
@@ -770,7 +931,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '257',
     },
-    languages: {},
+    languages: {
+      Kirundi: {
+        local: 'rn',
+        title: 'Ikirundi',
+      },
+      French: {
+        local: 'fr-BI',
+        title: 'Français',
+      },
+      English: {
+        local: 'en-BI',
+        title: 'English',
+      },
+    },
   },
 
   caboVerde: {
@@ -789,7 +963,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '238',
     },
-    languages: {},
+    languages: {
+      Portuguese: {
+        local: 'pt-CV',
+        title: 'Português',
+      },
+      CapeVerdeanCreole: {
+        local: 'kea',
+        title: 'Kriolu',
+      },
+    },
   },
 
   cambodia: {
@@ -808,7 +991,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '855',
     },
-    languages: {},
+    languages: {
+      Khmer: {
+        local: 'km-KH',
+        title: 'ភាសាខ្មែរ',
+      },
+    },
   },
 
   cameroon: {
@@ -827,9 +1015,17 @@ export const countries: CountriesMap = {
     telephone: {
       code: '237',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-CM',
+        title: 'Français',
+      },
+      English: {
+        local: 'en-CM',
+        title: 'English',
+      },
+    },
   },
-
   canada: {
     iso_3166: {
       alpha3: 'CAN',
@@ -846,7 +1042,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '1',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-CA',
+        title: 'English',
+      },
+      French: {
+        local: 'fr-CA',
+        title: 'Français',
+      },
+    },
   },
 
   caymanIslands: {
@@ -865,7 +1070,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '1-345',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-KY',
+        title: 'English',
+      },
+    },
   },
 
   centralAfricanRepublic: {
@@ -884,7 +1094,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '236',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-CF',
+        title: 'Français',
+      },
+      Sango: {
+        local: 'sg',
+        title: 'Sängö',
+      },
+    },
   },
 
   chad: {
@@ -903,7 +1122,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '235',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-TD',
+        title: 'Français',
+      },
+      Arabic: {
+        local: 'ar-TD',
+        title: 'العربية',
+      },
+    },
   },
 
   chile: {
@@ -922,7 +1150,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '56',
     },
-    languages: {},
+    languages: {
+      Spanish: {
+        local: 'es-CL',
+        title: 'Español',
+      },
+    },
   },
 
   china: {
@@ -941,9 +1174,13 @@ export const countries: CountriesMap = {
     telephone: {
       code: '86',
     },
-    languages: {},
+    languages: {
+      Mandarin: {
+        local: 'zh-CN',
+        title: '普通话',
+      },
+    },
   },
-
   christmasIsland: {
     iso_3166: {
       alpha3: 'CXR',
@@ -960,7 +1197,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '61',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-CX',
+        title: 'English',
+      },
+      Chinese: {
+        local: 'zh-CX',
+        title: '中文',
+      },
+      Malay: {
+        local: 'ms-CX',
+        title: 'Bahasa Melayu',
+      },
+    },
   },
 
   cocosIslands: {
@@ -979,7 +1229,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '61',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-CC',
+        title: 'English',
+      },
+      CocosMalay: {
+        local: null,
+        title: 'Basā Pulu Cocos',
+      },
+    },
   },
 
   colombia: {
@@ -998,7 +1257,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '57',
     },
-    languages: {},
+    languages: {
+      Spanish: {
+        local: 'es-CO',
+        title: 'Español',
+      },
+    },
   },
 
   comoros: {
@@ -1017,7 +1281,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '269',
     },
-    languages: {},
+    languages: {
+      Comorian: {
+        local: null,
+        title: 'Shikomori',
+      },
+      Arabic: {
+        local: 'ar-KM',
+        title: 'العربية',
+      },
+      French: {
+        local: 'fr-KM',
+        title: 'Français',
+      },
+    },
   },
 
   congo: {
@@ -1036,7 +1313,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '242',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-CG',
+        title: 'Français',
+      },
+      Lingala: {
+        local: 'ln',
+        title: 'Lingála',
+      },
+      Kituba: {
+        local: null,
+        title: 'Kituba',
+      },
+    },
   },
 
   congoDemocraticRepublic: {
@@ -1055,7 +1345,28 @@ export const countries: CountriesMap = {
     telephone: {
       code: '243',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-CD',
+        title: 'Français',
+      },
+      Lingala: {
+        local: 'ln-CD',
+        title: 'Lingála',
+      },
+      Swahili: {
+        local: 'sw-CD',
+        title: 'Kiswahili',
+      },
+      Kikongo: {
+        local: 'kg',
+        title: 'Kikongo',
+      },
+      Tshiluba: {
+        local: 'lua',
+        title: 'Tshiluba',
+      },
+    },
   },
 
   cookIslands: {
@@ -1074,7 +1385,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '682',
     },
-    languages: {},
+    languages: {
+      English: {
+        local: 'en-CK',
+        title: 'English',
+      },
+      CookIslandsMaori: {
+        local: 'rar',
+        title: "Māori Kūki 'Āirani",
+      },
+    },
   },
 
   costaRica: {
@@ -1093,7 +1413,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '506',
     },
-    languages: {},
+    languages: {
+      Spanish: {
+        local: 'es-CR',
+        title: 'Español',
+      },
+    },
   },
 
   croatia: {
@@ -1112,7 +1437,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '385',
     },
-    languages: {},
+    languages: {
+      Croatian: {
+        local: 'hr-HR',
+        title: 'Hrvatski',
+      },
+    },
   },
 
   cuba: {
@@ -1131,7 +1461,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '53',
     },
-    languages: {},
+    languages: {
+      Spanish: {
+        local: 'es-CU',
+        title: 'Español',
+      },
+    },
   },
 
   curacao: {
@@ -1150,7 +1485,20 @@ export const countries: CountriesMap = {
     telephone: {
       code: '599',
     },
-    languages: {},
+    languages: {
+      Dutch: {
+        local: 'nl-CW',
+        title: 'Nederlands',
+      },
+      Papiamento: {
+        local: 'pap',
+        title: 'Papiamentu',
+      },
+      English: {
+        local: 'en-CW',
+        title: 'English',
+      },
+    },
   },
 
   cyprus: {
@@ -1169,7 +1517,16 @@ export const countries: CountriesMap = {
     telephone: {
       code: '357',
     },
-    languages: {},
+    languages: {
+      Greek: {
+        local: 'el-CY',
+        title: 'Ελληνικά',
+      },
+      Turkish: {
+        local: 'tr-CY',
+        title: 'Türkçe',
+      },
+    },
   },
 
   czechia: {
@@ -1188,7 +1545,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '420',
     },
-    languages: {},
+    languages: {
+      Czech: {
+        local: 'cs-CZ',
+        title: 'Čeština',
+      },
+    },
   },
 
   cotedIvoire: {
@@ -1207,7 +1569,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '225',
     },
-    languages: {},
+    languages: {
+      French: {
+        local: 'fr-CI',
+        title: 'Français',
+      },
+    },
   },
 
   denmark: {
@@ -1226,7 +1593,12 @@ export const countries: CountriesMap = {
     telephone: {
       code: '45',
     },
-    languages: {},
+    languages: {
+      Danish: {
+        local: 'da-DK',
+        title: 'Dansk',
+      },
+    },
   },
 
   djibouti: {

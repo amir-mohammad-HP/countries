@@ -1,4 +1,4 @@
-type Tcountry =
+export type Tcountry =
   | 'afghanistan'
   | 'albania'
   | 'algeria'
@@ -246,7 +246,7 @@ type Tcountry =
   | 'zambia'
   | 'zimbabwe';
 
-interface CountryData {
+export interface CountryData {
   iso_3166: {
     alpha3: string;
     alpha2: string;
@@ -258,15 +258,9 @@ interface CountryData {
   };
   fifa: { code: string | null };
   telephone: { code: string | null };
-  languages: Record<string, { local: string; title: string }>;
+  languages: Record<string, { local: string | null; title: string }>;
 }
 
-type CountriesMap = {
+export type CountriesMap = {
   [K in Tcountry]: CountryData;
 };
-
-
-declare module 'enum-countries' {
-  const countries: CountriesMap;
-  export = countries;
-}

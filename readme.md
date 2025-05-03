@@ -139,9 +139,9 @@ interface CountriesMap {
 
 ## 🚀 Version History
 
-| Version | Changes                                           |
-| ------- | ------------------------------------------------- |
-| 1.0.*   | Include all languages and iso standard codes      |
+| Version | Changes                                      |
+| ------- | -------------------------------------------- |
+| 1.0.\*  | Include all languages and iso standard codes |
 
 ## 🤝 Contributing
 
